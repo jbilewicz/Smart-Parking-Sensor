@@ -1,14 +1,8 @@
-# Smart-Parking-Sensor
-This project is an advanced parking assistance system based on the ESP32 microcontroller. It uses an HC-SR04 ultrasonic sensor to measure distance with high precision. The data is processed using a custom Exponential Moving Average (EMA) filter to ensure smooth bar animations on the OLED screen.
 
 # 🚗 Smart Parking Sensor | ESP32 & EAGLE PCB
 
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=150&section=header&text=Parking%20Sensor%20Project&fontSize=50&animation=twinkling" alt="Header" />
-</p>
-
 ## 📝 Project Overview
-This is an advanced parking assistance system designed as a mechatronic project. It combines high-accuracy ultrasonic distance sensing with a smooth graphical interface. The project was developed as part of my journey in embedded systems at **Silesian University of Technology**.
+This is an advanced parking assistance system designed as a mechatronic project. It combines high-accuracy ultrasonic distance sensing with a smooth graphical interface.
 
 The system features an **Exponential Moving Average (EMA)** filter to eliminate sensor noise and a **Fast Response** algorithm for immediate emergency detection.
 
@@ -23,14 +17,14 @@ The system features an **Exponential Moving Average (EMA)** filter to eliminate 
 ---
 
 ## 🛠️ Components Used
-- **Microcontroller:** ESP32 (WROOM-32).
+- **Microcontroller:** ESP32 (DEVKITV1).
 - **Distance Sensor:** HC-SR04 Ultrasonic module.
 - **Display:** SSD1306 128x64 OLED (I2C) for real-time bar animation.
 - **Indicators:**
   - 🟢 **Green LED:** Safe distance (>30cm).
   - 🟡 **Yellow LED:** Caution (20-30cm).
   - 🔴 **Red LED:** Danger (<20cm).
-- **Audio:** Active/Passive Buzzer (**F/CM12P**) with dynamic frequency.
+- **Audio:** Active Buzzer (**F/CM12P**) with dynamic frequency.
 - **Control:** Hardware **Mute Button** for sound toggling.
 
 ---
@@ -67,9 +61,4 @@ The firmware includes:
 - `/Hardware` - EAGLE schematic (.sch) and board (.brd) files.
 - `/Exports` - Visualizations, PDF schematics, and PCB renders.
 
----
 
-<h3 align="left">📫 Reach me:</h3>
-<p align="left">
-<a href="https://instagram.com/abuk55s" target="blank"><img align="center" src="https://img.shields.io/badge/Instagram-%23E4405F.svg?style=for-the-badge&logo=Instagram&logoColor=white" alt="abuk55s" /></a>
-</p>
