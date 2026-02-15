@@ -1,5 +1,5 @@
 
-# 🚗 Smart Parking Sensor | ESP32 & EAGLE PCB
+# 🚗 Smart Parking Sensor
 
 ## 📝 Project Overview
 This is an advanced parking assistance system designed as a mechatronic project. It combines high-accuracy ultrasonic distance sensing with a smooth graphical interface.
